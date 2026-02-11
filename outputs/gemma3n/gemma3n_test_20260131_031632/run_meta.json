@@ -1,0 +1,20 @@
+{
+  "model_key": "gemma3n",
+  "model_id": "google/gemma-3n-E4B-it",
+  "run_group": "gemma3n_test_20260131_031632",
+  "host": "ubuntu",
+  "device": "cuda",
+  "dtype": "torch.bfloat16",
+  "torch_version": "2.8.0",
+  "timestamp": "2026-01-31T03:16:36.918148",
+  "manifest": "/home/waggle/SageEdge/Benchmarking/data/testsets/coco_val2017_100.txt",
+  "num_images": 10,
+  "warmup": 5,
+  "max_new_tokens": 128,
+  "batch_size": 1,
+  "repeats": 1,
+  "suite": "week5_5tasks_bounded",
+  "power_monitoring_available": true,
+  "power_monitoring_method": "tegrastats",
+  "power_sample_interval_ms": 100
+}
